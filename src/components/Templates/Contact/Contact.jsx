@@ -35,8 +35,8 @@ const Contact = () => {
                 Subscribe to get information, latest news and other interesting
                 offers about Cobham
               </h4>
-              <div className="flex flex-col sm:flex-row  items-center max-w-2xl gap-y-8 mx-auto justify-center gap-x-7 pt-20 bg-transparent">
-                <div className="relative w-full sm:w-[400px] shadow-lg rounded-lg mb-2 bg-transparent   flex items-center">
+              <div className="flex flex-col sm:flex-row  items-center max-w-2xl gap-y-8 mx-auto justify-center gap-x-7 pt-20 ">
+                <div className="relative w-full sm:w-[400px] shadow-lg rounded-lg mb-2  bg-white  flex items-center">
                   <svg
                     width="21"
                     height="18"
@@ -63,8 +63,9 @@ const Contact = () => {
                     </g>
                   </svg>
                   <input
-                    className="text-[#39425D] w-full  py-5  outline-none rounded-lg pl-10 font-montserrat transition-all ease-in-out duration-[.15s]   focus-visible:outline-none focus:border-[#80bdff] focus:shadow-[0px_0px_0px_0.2rem_rgb(0,123,255,0.25)]"
+                    className="text-[#39425D] w-full  bg-white py-5  outline-none rounded-lg pl-10 font-montserrat opacity-1 transition-all ease-in-out duration-[.15s]   focus-visible:outline-none focus:border-[#80bdff] focus:shadow-[0px_0px_0px_0.2rem_rgb(0,123,255,0.25)]"
                     placeholder="Your email"
+                    type="email"
                   />
                 </div>
                 <div>
