@@ -58,33 +58,7 @@ const LeftContent = () => {
             <button className=" bg-yellow-500 hover:scale-105 hover:bg-yellow-400 font-google-sans font-medium text-white text-base  text-center cursor-pointer  rounded-lg mr-4 w-44 h-14 duration-700">
               Find out more
             </button>
-            <button className=" p-2 bg-transparent lg:flex  justify-between hover:xl font-medium text-gray-700 text-lg leading-10  cursor-pointer rounded-lg w-44 h-14  flex items-center ">
-            
-            <svg width="122" height="122" viewBox="0 0 122 122" fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-bounce  fill-[#DF6951] ">
-<g filter="url(#filter0_d_1_131)">
-<circle cx="56" cy="41" r="26" fill="#DF6951"/>
-</g>
-<path d="M64 42.5L52.75 48.9952L52.75 36.0048L64 42.5Z" fill="white"/>
-<defs>
-<filter id="filter0_d_1_131" x="0" y="0" width="122" height="122" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood floodOpacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="15"/>
-<feGaussianBlur stdDeviation="15"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.87451 0 0 0 0 0.411765 0 0 0 0 0.317647 0 0 0 0.3 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_131"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_131" result="shape"/>
-</filter>
-</defs>
-</svg>
-
-              <p className="ml-1 flex flex-wrap content-center whitespace-nowrap font-poppins ">
-              <span className="w-0 h-0 rounded bg-purple-600 absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1"></span>
-  <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10">
-                Play Demo
-               </span>
-              </p>
-            </button>
+           <div class="flex items-center lg:gap-6 gap-3 cursor-pointer"><span class="relative flex h-14 w-14"><span class="animate-ping absolute inline-flex h-full w-full rounded-full  bg-[#DF6951] opacity-75"></span><span class="relative flex justify-center items-center text-white rounded-full h-14 w-14 bg-[#DF6951]"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z"></path></svg></span></span><button type="button" class="outline-none border-none hover:text-[#DF6951] hover:scale-110 transition duration-200 ease-in-out">Play Demo</button></div>
           </div>
         </motion.div>
       </div>
