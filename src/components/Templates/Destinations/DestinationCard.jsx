@@ -19,7 +19,7 @@ const DestinationCard = ({ img, title, price, duration }) => {
       className='sm:w-[300px] mx-auto bg-white shadow-xl rounded-[20px] scale-100 '
     >
       <div className='h-[300px] overflow-hidden rounded-tl-[20px] rounded-tr-[20px] '>
-        <img src={img} alt={title} loading="lazy" className="h-full w-full"/>
+        <img src={img} alt={title} loading="lazy" className="h-full w-full hover:scale-110 transition duration-300 ease-in-out"/>
       </div>
 
       <div className='py-5 px-4'>

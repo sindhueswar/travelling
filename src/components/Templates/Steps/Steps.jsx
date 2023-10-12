@@ -131,7 +131,7 @@ const ImageSection = () => {
           variants={imageVariants.bottomImage}
           animate={visible ? "show" : "initial"}
         >
-          <img src={BottomImage} className='rounded-xl shadow-lg mx-auto' loading="lazy" />
+          <img src={BottomImage} className='rounded-xl shadow-lg mx-auto hover:rotate-6 hover:scale-110 transition duration-300 ease-in-out' loading="lazy" alt="bottom-i"/>
         </motion.div>
         <motion.div
           className='absolute top-32 bottom-0 h-fit  m-auto z-99 right-0'
@@ -140,8 +140,9 @@ const ImageSection = () => {
         >
           <img
             src={TopImage}
-            className='rounded-xl shadow-xl scale-100    w-[250px] h-full object-contain'
+            className='rounded-xl shadow-xl scale-100    w-[250px] h-full object-contain hover:-rotate-6 hover:scale-90 transition duration-300 ease-in-out'
             loading="lazy"
+            alt="top"
           />
         </motion.div>
       </div>
