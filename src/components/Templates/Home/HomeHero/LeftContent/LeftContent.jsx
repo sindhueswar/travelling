@@ -60,13 +60,13 @@ const LeftContent = () => {
             </button>
             <button className=" p-2 bg-transparent lg:flex  justify-between hover:xl font-medium text-gray-700 text-lg leading-10  cursor-pointer rounded-lg w-44 h-14  flex items-center ">
             
-              <svg width="352" height="122" viewBox="0 0 90 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-bounce  fill-[#DF6951] ">
+            <svg width="122" height="122" viewBox="0 0 122 122" fill="none" xmlns="http://www.w3.org/2000/svg" className="animate-bounce  fill-[#DF6951] ">
 <g filter="url(#filter0_d_1_131)">
 <circle cx="56" cy="41" r="26" fill="#DF6951"/>
 </g>
 <path d="M64 42.5L52.75 48.9952L52.75 36.0048L64 42.5Z" fill="white"/>
 <defs>
-<filter id="filter0_d_1_131" x="0" y="0" width="120" height="120" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<filter id="filter0_d_1_131" x="0" y="0" width="122" height="122" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
 <feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="15"/>
