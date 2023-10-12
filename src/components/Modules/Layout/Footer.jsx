@@ -251,11 +251,10 @@ const Footer = () => {
             </motion.div>
           </Container>
         </div>
-       
       </ReactVisibilitySensor>
       <div className="text-center font-poppins text-sm ">
-      All rights reserved@jadoo.co
-        </div>
+        All rights reserved@jadoo.co
+      </div>
     </>
   );
 };
